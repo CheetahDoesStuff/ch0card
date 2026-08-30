@@ -35,6 +35,12 @@ It is a really simple PCB, containing only 5 components:
 - A resistor
 - A capacitor
 
+The main component is the NFC chip. The chip is connected to the antenna which catches the signals from phones and sends them to the NFC chip (and the other way around), and is basically an extension of the 2 pins on the NFC chip for the antenna.
+
+The LED is then connected to the chip through a resistor and capacitor, using the chips "Power Harvest" feature, basically meaning that it, using the antenna, takes power wirelessly from the phone/device while its connected. This results in the LED  lighting up while the phone is connected, adding some user feedback, UX design wooo!
+
+Then there is the decorations, which are just images/text/shapes on the PCBs silkscreen. The font for the text is called Impact and can be found [here](https://font.download/font/impact). The images used is the ![rust logo](https://commons.wikimedia.org/wiki/File:Rust_programming_language_black_logo.svg) as well as [this](https://uxwing.com/wireless-icon/) wireless/wifi icon.
+
 ### Images
 ![Front](Images/3d-front.png)
 ![Back](Images/3d-back.png)
