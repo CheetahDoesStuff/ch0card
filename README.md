@@ -55,3 +55,17 @@ can scan your card with their phone (assuming its on and nfc is enabled) and it 
 [EasyEda Pro project](https://oshwlab.com/cheetahdoespcb/project_jrpucpxz)  
 [Pixl project](https://pixl.hackclub.com/explore/#project=293)  
 [Github repo](https://github.com/CheetahDoesStuff/ch0card)  
+
+### Do you think this is cool? Check out some of my other projects!
+**Hardware**  
+[USBuddy!](https://github.com/CheetahDoesStuff/USBuddy) - A small usb hub, for your keychain!  
+[ExrPad v1](https://github.com/CheetahDoesStuff/ExrPad-v1) - A macropad with keys, a rotary encoder and a screen!  
+
+**Software**  
+[Raytracer](https://github.com/CheetahDoesStuff/Raytracer) - A CPU raytracer to render predefined scenes  
+[Wrix](https://github.com/CheetahDoesStuff/wrix) - A simple chat room with HackClub auth  
+[Kiln](https://github.com/CheetahDoesStuff/kiln) - A simple url shortener  
+[Pesto](https://github.com/CheetahDoesStuff/pesto) - A pastebin clone  
+[xv0](https://github.com/CheetahDoesStuff/xv0) - An operating system written in rust, from scract
+
+Check out this and more on [my github](https://github.com/CheetahDoesStuff)!
