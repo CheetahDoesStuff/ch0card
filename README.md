@@ -34,3 +34,24 @@ It is a really simple PCB, containing only 5 components:
 - The led (amber/orange colored)
 - A resistor
 - A capacitor
+
+### Images
+![Front](Images/3d-front.png)
+![Back](Images/3d-back.png)
+![PCB](Images/pcb.png)
+![Schematic](Images/schem.png)
+
+## Making it yourself
+To make something like this yourself, you can follow [this](https://jams.hackclub.com/jam/hacker-card) tutorial!  
+When the PCB has arrived you can flash it using an app (Personally i use [NFC tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc) which is availble for both android and iphone.  
+
+Using your app of choice, flash the chip with this NFC command:  
+`A2:03:E1:10:6D:00,A2:04:03:04:D8:00,A2:05:00:00:FE:00`  
+
+Then you can write a url on it using the app! After that, people
+can scan your card with their phone (assuming its on and nfc is enabled) and it will open the written website!
+
+## Links
+[EasyEda Pro project](https://oshwlab.com/cheetahdoespcb/project_jrpucpxz)  
+[Pixl project](https://pixl.hackclub.com/explore/#project=293)  
+[Github repo](https://github.com/CheetahDoesStuff/ch0card)  
