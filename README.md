@@ -1,13 +1,38 @@
-# ch0card
-**An NFC business card! Very cool!**
+<h1 align="center">
+ch0card <br>
+<img width=70% alt="gif render" src="Images/ch0card4k.png" /> <br>
+</h1>
+<h4 align="center">
+    A business card with built in NFC
+</h4>
 
-## What is this?
-This is a business card, by me, for me. But its not just a card, its a PCB! Yes, you heard that right, its a custom pcb!  
-It features an nfc chip you can flash to open a url or show text! When the phone makes contact, an LED lights up as well!
+<div align="center">
 
-## Information
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Project](https://img.shields.io/badge/Project-Hardware-yellow.svg)
+![Series](https://img.shields.io/badge/NFC-Enabled-green)
 
-### Repo structure
+</div>
+<p align="center">
+  <a href="#about">About</a> •
+  <a href="#repo-structure">Structure</a> •
+  <a href="#details">Details</a> •
+  <a href="#images">Images</a> •
+  <a href="#making-it-yourself">Making it yourself</a> •
+  <a href="#links">Links</a>
+</p>
+<br>
+<br>
+<p align=center>
+<img width=70% alt="image" src="Images/spincard.gif" />
+<img width=70% alt="render banner" src="Images/breakoutcard.gif" />
+</p>
+
+## About
+
+**ch0card** is a minimalistic business card equipped with modern NFC technology to integrate modern online portfolios with classic physical business cards. (Specifically made for me)
+
+## Repo structure
 ```
 ch0card (root)
 |- BOMs
@@ -19,6 +44,9 @@ ch0card (root)
 |  |- 3d-front.png - Front of the pcb (3d model)
 |  |- pcb.png - The PCB, in the EasyEda Pro editor
 |  |- schem.png - The schematic, in the EasyEda Pro editor
+|  |- ch0card4k.png - A 4k render of the card, in blender
+|  |- spincard.gif - A gif of the card spinning (as seen above)
+|  |- breakoutcard.gif - A gif of the card seperating into layers (as seen above)
 |
 |- PCB
 |  |- ch0card-gerbers.zip - The PCB gerber files (used to order the pcb)
@@ -27,7 +55,7 @@ ch0card (root)
 |- README.md - This!!
 ```
 
-### Details
+## Details
 It is a really simple PCB, containing only 5 components:
 - NFC Chip (NTAG I2C Plus)
 - The antenna (Copper traces on the PCB, forming a "coil")
@@ -42,10 +70,28 @@ The LED is then connected to the chip through a resistor and capacitor, using th
 Then there is the decorations, which are just images/text/shapes on the PCBs silkscreen. The font for the text is called Impact and can be found [here](https://font.download/font/impact). The images used is the ![rust logo](https://commons.wikimedia.org/wiki/File:Rust_programming_language_black_logo.svg) as well as [this](https://uxwing.com/wireless-icon/) wireless/wifi icon.
 
 ### Images
-![Front](Images/3d-front.png)
-![Back](Images/3d-back.png)
-![PCB](Images/pcb.png)
-![Schematic](Images/schem.png)
+<div align="center">
+  <table>
+    <tr>
+      <td valign="bottom"><img width=100% alt="Schematic" src="Images/schem.png" /></td>
+      <td valign="bottom"><img width=100% alt="PCB" src="Images/pcb.png" /></td>
+  </table>
+</div>
+<div align="center">
+  <table>
+    <tr>
+      <td valign="bottom"><img width=100% alt="3d front" src="Images/3d-front.png" /></td>
+      <td valign="bottom"><img width=100% alt="3d back" src="Images/3d-back.png" /></td>
+  </table>
+</div>
+<div align="center">
+  <table>
+    <tr>
+      <td valign="bottom"><img width=100% alt="3d front" src="Images/ch0card4k.png" /></td>
+      <td valign="bottom"><img width=100% alt="3d back" src="Images/spincard.gif" /></td>
+      <td valign="bottom"><img width=100% alt="3d back" src="Images/breakoutcard.gif" /></td>
+  </table>
+</div>  
 
 ## Making it yourself
 To make something like this yourself, you can follow [this](https://jams.hackclub.com/jam/hacker-card) tutorial!  
